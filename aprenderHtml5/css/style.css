@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	background: #EBA90D;
+	height: 70;
+	border-bottom-color: black;
+}
+.ancho{
+	width: 80%;
+	height: 70px;
+	background: #EBA90D;
+	margin: auto;
+}
+.logo{
+	width: 30%;
+	height: 70px;
+	float: left;
+	box-sizing: border-box;
+	font-weight: bold;
+	font-style: Comic sans;
+}
+
+.logo p a{
+	color:#fff;
+	font-size: 60px;
+	font-style: oblique;
+	text-decoration: none;
+	font-family: 'Cabin', sans-serif;
+}
+
+nav{
+	width: 70%;
+	height: 70px;
+	float: left;
+	text-align: right;
+	padding-top: 24px;
+	box-sizing: border-box;
+	
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	color:#000;
+	font-size: 30;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+nav ul li a:hover{
+	color: white;
+}
+.cuerpo{
+	
+	width: 100%;
+	height: 500px;
+	background: #FC0202;
+}
+.cuerpo2{
+	width: 100%;
+	height: 500px;
+	background:blue;
+}
+
+.cuerpo3{
+	width: 100%;
+	height: 500px;
+	background: yellow;
+}
+
+

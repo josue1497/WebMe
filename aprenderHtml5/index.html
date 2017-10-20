@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Pagina de Bienvenida</title>
+	<link  rel="stylesheet" href="css/style.css">
+	<script src="js/smooth-scroll.min.js"></script>
+	<script>
+	smoothScroll.init({
+      selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+      selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+      speed: 1000, // Integer. How fast to complete the scroll in milliseconds
+      easing: 'easeInOutCubic', // Easing pattern to use
+      offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+      callback: function ( anchor, toggle ) {} // Function to run after scrolling
+      });
+	</script>
+</head>
+<body>
+	<header id="header" class="">
+		<div class="ancho">
+			<div class="logo">
+				<p><a href="">WebMe</a></p>
+			</div>		
+		<nav>
+			<ul>
+				<li><a href="#" title="">Home</a></li>
+				<li><a data-scroll href="#sec-1" title="">Contacto</a></li>
+				<li><a data-scroll href="#sec-2" title="">Servicios</a></li>
+				<li><a data-scroll href="#sec-3" title="">Listado</a></li>
+			</ul>
+		</nav>
+		</div>
+	</header><!-- /header -->
+	<div class="cuerpo">
+			<div class="articulo" id="sec-1">
+				<h1>Seccion 1</h1>
+			</div>
+	</div>
+	<div class="cuerpo2">
+			<div class="articulo" id="sec-2">
+				<h1>Seccion 1</h1>
+			</div>
+	</div>	
+	<div class="cuerpo3">
+			<div class="articulo" id="sec-3">
+				<h1>Seccion 1</h1>
+			</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
